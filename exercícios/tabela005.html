@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Tabelas</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table{
+        text-align: center;
+        width: 33vw;
+        padding: 10px;
+        border-collapse: collapse;
+    }
+
+    th,td{
+        border: 1px solid black;
+    }
+
+    col.cnome{
+        background-color: aqua;
+    }
+
+</style>
+<body>
+    <h1>Exercícios de Tabelas</h1>
+
+    <table>
+
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">
+        <col class="cprof">
+        <!-- 
+            CASO OCORRA A SITUAÇÃO ONDE EU QUISESSE DUAS COLUNAS COM AS MESMAS CARACTERÍSTICAS, EU PODERIA COLOCAR, OU UMA CLASSE EM AMBAS. COMO NESSE EXEMPLO: 
+
+                <col class="cnome">
+                <col class="cgrupo">
+                <col class="cgrupo">
+                <col class="cprof">
+            
+            PORÉM, CASO HOUVESSEM DUAS TABELAS SEGUIDAS E HOUVESSE A NECESSIDADE DE QUE AMBAS POSSUÍSSEM AS MESMAS CARACTERÍSTICAS, PODERÍAMOS COLOCAR DA SEGUINTE FORMA:
+
+                <col class="cnome">
+                <col class="cgrupo" span="2"> -> O NÚMERO 2 PODE SER ALTERADO PARA NÚMEROS TANTO MAIORES QUANTO MENORES, E ISSO IMPACTARIA DIRETAMENTE NO NÚMERO DE COLUNAS QUE SERIAM ATINGIDAS PELA FORMATAÇÃO ESPECIFICADA.
+                <col class="cprof">
+            
+         -->
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        <tr>
+            <td>Nome</td>
+            <td>Sexo</td>
+            <td>Idade</td>
+            <td>Profissão</td>
+        </tr>
+        <tr>
+            <td scope="col">Ana Maria</td>
+            <td scope="col">F</td>
+            <td scope="col">25</td>
+            <td scope="col">Jornalista</td>
+        </tr>
+        <tr>
+            <td scope="col">João Pedro</td>
+            <td scope="col">M</td>
+            <td scope="col">30</td>
+            <td scope="col">Pizzaiolo</td>
+        </tr>
+        <tr>
+            <td scope="col">Zezinho</td>
+            <td scope="col">M</td>
+            <td scope="col">999</td>
+            <td scope="col">Ser exemplo do prof Matheus</td>
+        </tr>
+        <tr>
+            <td scope="col">Mariazinha</td>
+            <td scope="col">F</td>
+            <td scope="col">994</td>
+            <td scope="col">Ser exemplo do prof Matheus</td>
+        </tr>
+    </table>
+
+</body>
+</html>
