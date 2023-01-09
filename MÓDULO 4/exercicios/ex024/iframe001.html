@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de iframe</title>
+</head>
+<style>
+    
+    p{
+        text-indent: 30px;
+    }
+
+    iframe{
+        width: 500px;
+        height: 500px;
+    }iframe.borda{
+        border: 5px solid black;
+    }
+</style>
+<body>
+    
+    <h1>Testando o uso de um iframe</h1>
+    <p>O tamanho padrão de um iframe é: 300x150 px. Podemos mudar a altura dele, fazendo o uso da tag <i>height</i> e, também, a largura dele colocando a tag <i>width</i> dentro da tag do próprio iframe.</p>
+    <p>Podemos mudar a altura e a largura de um iframe, fazendo uso do CSS. Caso eu tenha um iframe estilizado da seguinte forma: <br>
+    
+    < iframe iframe src="" frameborder="0" height="900px" width="1320px" >< /iframe >
+    
+    E definir um CSS para um iframe, a configuração definida no CSS irá prevalecer. O CSS é soberano.
+    </p>
+
+    <p>Existem outro parâmetro para se usar no iframe também, o <i>scrolling</i> que está direcionado à barra de rolagem. Funciona da seguinte forma: <br><br>
+    
+    <i>scrolling="auto"</i> ↔ Caso o conteúdo dentro do iframe exceda o tamanho do mesmo, a barra de rolagem será ativada. <br>
+    
+    <i>scrolling="yes"</i> ↔ Mesmo que o conteúdo caiba totalmente dentro do iframe, a barra de rolagem estará habilitada. <br>
+    
+    
+    <i>scrolling="no"</i> ↔ A barra de rolagem estará desabilitada totalmente. <br>
+        
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- <br><br>
+    Já o <i>frameborder</i> - tag usada dentro da tag do iframe - possui apenas dois valores, o 0 (zero) e o 1 (um). Sendo o 0 para definir que o iframe não terá bordas, e o 1 para que ele tenha borda, apenas de um pixel. Caso você queira definir uma borda diferente, basta usar o <i>border</i> no CSS. 
+    
+    </p>
+    <br><br>
+    <p>Acessando o site do
+    
+        <iframe scrolling="no" src="https://www.cursoemvideo.com" frameborder="0">
+            <a href="https://www.cursoemvideo.com" target="_blank">CursoemVídeo</a>
+        </iframe>
+        
+    para aprender a programar</p>
+
+    <p>O site do
+        <iframe src="https://www.w3schools.com/" frameborder="0">
+            <a href="https://www.w3schools.com/" target="_blank">W3C</a>
+        </iframe> 
+        
+    também é muito legal. Pena que não funciona dentro do iframe</p>
+
+    <p>O repositório do Guanabara no 
+        <iframe class="borda" src="https://gustavoguanabara.github.io" frameborder="0">
+            <a href="https://gustavoguanabara.github.io" target="_blank"> Github </a>
+        </iframe>    
+    também é muito legal</p>
+
+
+</body>
+</html>
