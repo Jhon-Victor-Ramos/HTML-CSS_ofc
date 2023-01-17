@@ -2,7 +2,7 @@
 <p>Os projetos aqui postados, são os que fiz ao longo do curso de HTML e CSS do <i>Curso em Vídeo</i>!</p>
 
 ### Desafio Inicial do curso :vulcan_salute::nerd_face::
-__&rightarrow;__ <a href="https://jhon-victor-ramos.github.io/HTML-CSS/Desafios/d09/" target="_blank">Clique aqui para acessá-lo!</a>
+<b>&rightarrow;</b> <a href="https://jhon-victor-ramos.github.io/HTML-CSS/Desafios/d09/" target="_blank">Clique aqui para acessá-lo!</a>
 <hr>
 
 ### Projeto Android :robot::
