@@ -15,4 +15,4 @@
 
 ### Projeto de redes sociais :globe_with_meridians::
 
-- <a target="_blank" href="#">Clique aqui para acessá-lo!</a>
+- <a target="_blank" href="https://jhon-victor-ramos.github.io/HTML-CSS_ofc/PROJETOS/Projeto-Social/">Clique aqui para acessá-lo!</a>
