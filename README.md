@@ -10,7 +10,7 @@
 <hr>
 
 ### Projeto Cordel :closed_book::
-- <a target="_blank" href="https://jhon-victor-ramos.github.io/HTML-CSS_ofc/PROJETOS/Projeto-Social/">Clique aqui para acessá-lo!</a>
+- <a target="_blank" href="https://jhon-victor-ramos.github.io/HTML-CSS_ofc/PROJETOS/Projeto-Cordel/">Clique aqui para acessá-lo!</a>
 <hr>
 
 ### Projeto de redes sociais :globe_with_meridians::
