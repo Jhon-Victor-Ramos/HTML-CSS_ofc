@@ -14,4 +14,5 @@
 <hr>
 
 ### Projeto de redes sociais :globe_with_meridians::
-- <i><b>:warning: Ainda em desenvolvimento! :warning:</b></i>
+
+- <a target="_blank" href="https://jhon-victor-ramos.github.io/HTML-CSS_ofc/PROJETOS/Projeto-Social/">Clique aqui para acessá-lo!</a>
