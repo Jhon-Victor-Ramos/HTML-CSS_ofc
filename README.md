@@ -1,4 +1,4 @@
-<h1 align="center">Aqui estão alguns dos projetos que fiz e/ou estou fazendo!</h1>
+<h1 align="center">Aqui estão alguns dos projetos que fiz e estou fazendo!</h1>
 <p>Os projetos aqui postados, são os que fiz ao longo do curso de HTML e CSS do <i>Curso em Vídeo</i>!</p>
 
 ### Desafio Inicial do curso :vulcan_salute::nerd_face::
