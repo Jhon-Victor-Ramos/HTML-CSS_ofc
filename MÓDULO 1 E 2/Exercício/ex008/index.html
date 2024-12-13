@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+    <link rel="shortcut icon" href="img/Cornmanthe3rd-Plex-Other-html-5.ico" type="image/x-icon">
+    <title>Formatação de Textos</title>
+</head>
+<style>
+    h1{
+        font-family: 'Poppins';
+    }
+    h2{
+        font-family: 'Poppins';
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+    }
+    hr{
+        border: 1px solid black;
+    }
+    hr:first-of-type{
+        background-color: black;
+        border: 1px solid black;
+    }
+</style>
+<body>
+    <h1 style="text-align: center;">Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase, temos um <b>termo</b> em negrito, utilizando a tag < b > < /b > (tag não semântica).</p>
+    <p>Nesta frase, temos um <strong>termo</strong> em destaque, utilizado a tag < strong > < /strong > (tag semântica).</p><br><hr>
+
+    <h2>Itálico / Ênfase </h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag < i > < /i > (tag não semântica)</p>
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag < em > < /em > (tag semântica)</p>
+    <p>Podemos também, <mark style="background-color: lime;">marcar um trecho de um texto</mark>, utilizando a tag < mark >< /mark ></p>
+    <p>E em outro parágrafo, temos <mark>outro texto marcado</mark> no final</p><br>
+    <hr>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big <!--TAG_JÁ_OBSOLETA-->texto grande</big> e <small>outro texto pequeno</small> neste parágrafo</p><br><hr>
+
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluído</del>, para indicar que ele deve ser lido porém não considerado.</p><br><hr>
+
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+    <p>Existe também o <u>sublinhado</u> com a tag U (tag não semântica)</p><br><hr>
+
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo: x<small><sup>20</sup></small>+3</p><br><hr>
+
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo: H<small><sub>2</sub></small>O</p><br>
+
+</body>
+</html>

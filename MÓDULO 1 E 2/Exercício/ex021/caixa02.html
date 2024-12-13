@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+<style>
+    body{
+        font-family: 'Arial';
+        background-color: dimgray;
+    }
+    header{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+    nav{
+        background-color: #666666;
+        padding: 10px;
+        margin: 10px;
+        text-indent: 5px;
+        box-shadow: 2px 2px 4px .1px rgba(0, 0, 0, 0.315);
+        /* Box-Shadow (Parâmetros PX explicados) - O DevTolls do Google (inspecionar, ajuda muito também a criar estas sombras)
+            Primeiro PX: Indica o eixo Y da sombra;
+            Segundo PX: Indica o eixo X da sombra;
+            Terceiro PX: Indica a dureza da sombra (o quão esfumaçada ela será);
+            Quarto PX: Indica o espalhamento da sombra (o tanto que ela irá espalhar-se em sua caixa);
+        */
+    }
+    nav>a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 30px;
+    }
+    main{
+        border-radius: 20px 20px 20px 20px;
+        /*Isso tudo - NESSE EXEMPLO - pode ser simplificado com apenas um valor (já que é apenas um valor)
+        -------------------------------------------------------------------------------------------------------------------------------
+            O border-radius é uma shorthand, tendo isso em vista, podemos colocar mais de um valor para arredondar cada borda de maneira mais específica, desse modo termos os seguintes parâmetros:
+
+            - Primeiro parâmetro PX: A borda da  Esquerda-Superior será curvada;
+            - Segundo  parâmetro PX: A borda da  Direita-Superior  será curvada;
+            - Terceiro parâmetro PX: A borda da  Direita-Inferior  será curvada;
+            - Quarto   parâmetro PX: A borda da  Direita-Inferior  será curvada;
+        ----------------------------------------------------------------------------------------------------------------------------------
+        Caso aconteça de serem inseridos apenas dois parâmetros px, serão inseridos os 2 nos 4 totais, na
+        ordem que eles foram predefinidos. Ou seja, 'border-radius: 20px 10px':
+        é aplicado dessa forma:
+            - 1º parâmetro PX: 20px;
+            - 2º parâmetro PX: 10px;
+            - 3º parâmetro PX: 20px;
+            - 4º parâmetro PX: 10px;
+
+            */
+    }
+    nav>a:hover{
+        text-decoration: underline;
+    }
+    nav>a:last-child{
+        float: right;
+        background-color: #A1B3B0;
+    }
+    main{
+        background-color: white;
+        padding: 10px ;
+        margin: 10px;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+    footer>p{
+        margin: 0;
+    }
+    /*Saindo das tags semânticas */
+
+    article{
+        background-color: lightgray;
+        padding: 5px;
+    }
+    article > aside{
+        background-color: rgb(165, 165, 165);
+    }
+
+    #bola{
+        margin: 30px;
+        background-color: white;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+
+</style>
+<body>
+    <!--<div> - Div é uma caixa do tipo box-level
+    <span> - Span é uma caixa do tipo inline-level -->
+
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#"> Link </a>
+            <a href="#"> Link </a>
+            <a href="#"> Link </a>
+            <a href="#"> Link </a>
+            <a href="#"> Link </a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsum modi natus consequuntur quos corporis vero voluptates sit nobis eveniet. Libero perspiciatis cupiditate veritatis? Porro quaerat asperiores dolores voluptatum debitis!</p>
+                <aside>
+                    <p>Artigo escrito por Jhon Victor</p>
+                </aside>
+            </article>
+            <article></article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Jhon Victor</p>
+    </footer>
+    <div id="bola">
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+</head>
+<style>
+    h1{
+        background-color: lightgray;
+        height: 300px;
+        width: 300px;
+        border-width: 10px;
+        border-style: dashed;
+        border-color: darkslategrey;
+        margin: 20px 20px 30px 20px;
+        padding: 10px;
+    }
+    a{
+        border: 10px groove red;
+         /* solid - Ficará apenas as linhas retas comuns; dashed - Ficará um traçado em volta; dotted - Ficará um pontilhado em volta; double - Ficará uma linha dupla; groove - Ficará uma margem em estilo meio tridimensional. */
+        padding: 10px;
+    }
+    img{
+        display: none;
+    }
+    div:hover>img{
+        display: inline-block;
+        height: 15px;
+    }
+</style>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixa inline-level</a>. Vamos ver como isso funciona.</p>
+    <div>
+        passa o mouse aqui se tu tem coragem
+        <img src="img/logo_html.ico">
+    </div>
+</body>
+</html>

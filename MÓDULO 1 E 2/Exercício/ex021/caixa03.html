@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="p-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borda personalizada</title>
+</head>
+<style>
+    h1{
+        border: 20px solid black transparent;
+        padding: 20px;
+
+        border-image: url(img/borda.png) 27 repeat;
+        /*border-image: ; <- Este é o shorthand para a seguinte ordem de tags: 
+        - border-image-source: url(img/borda.png);
+        - border-image-slice: 20;
+        - border-image-repeat: repeat;
+        OBS¹.: É NECESSÁRIO QUE HAJA UMA BORDA JÁ DEFINIDA PARA QUE TENHAMOS ESSA IMAGEM FAZENDO A FUNÇÃO DE BORDA (para que a borda não apareça, utilizamos o "transparent".)
+        OBS².: NEM TODOS OS NAVEGADORES SÃO COMPATÍVEIS COM ESSE TIPO DE BORDA */
+    }
+</style>
+<body>
+    <h1>Teste de borda</h1>
+
+</body>
+</html>
