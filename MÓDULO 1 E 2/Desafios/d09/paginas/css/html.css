@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(62, 62, 62);
+}
+
+h1{
+    font-family: 'Poppins';
+    color: white;
+    text-align: center;
+    margin: 15px;
+}
+
+/* Vídeos */
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+p{
+    color: white;
+    font-family: 'Poppins';
+    margin-top: 10px;
+    font-size: large;
+    text-align: center;
+}
+p:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+    font-family: 'Poppins';
+    margin-top: 10px;
+    font-size: larger;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+/* Voltar */
+
+.container-img{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: 10px;
+}
+.container-img:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    height: 55px;
+}
