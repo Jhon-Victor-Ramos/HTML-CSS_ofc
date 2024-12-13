@@ -1,23 +1,22 @@
-<h1 align="center">Aqui estão alguns dos projetos que fiz e estou fazendo!</h1>
-<p>Os projetos aqui postados, são os que fiz ao longo do curso de HTML e CSS do <i>Curso em Vídeo</i>!</p>
+<h1 align="center">Projetos Desenvolvidos</h1>
 
-### Desafio Inicial do curso :vulcan_salute::nerd_face::
-- <a href="https://jhon-victor-ramos.github.io/HTML-CSS/Desafios/d09/" target="_blank">Clique aqui para acessá-lo!</a>
+> Estes são os projetos que desenvolvi durante o curso de HTML e CSS do *Curso em Vídeo*.
+
+### Desafio Inicial do Curso :vulcan_salute::nerd_face::
+- <a href="https://jhon-victor-ramos.github.io/HTML-CSS/Desafios/d09/" target="_blank">Acesse o desafio inicial aqui!</a>
 <hr>
 
 ### Projeto Android :robot::
-- <a href="https://jhon-victor-ramos.github.io/projeto-android/" target="_blank">Clique aqui para acessá-lo!</a>
+- <a href="https://jhon-victor-ramos.github.io/projeto-android/" target="_blank">Acesse o Projeto Android aqui!</a>
 <hr>
 
 ### Projeto Cordel :closed_book::
-- <a target="_blank" href="https://jhon-victor-ramos.github.io/HTML-CSS_ofc/PROJETOS/Projeto-Cordel/">Clique aqui para acessá-lo!</a>
+- <a target="_blank" href="https://jhon-victor-ramos.github.io/HTML-CSS_ofc/PROJETOS/Projeto-Cordel/">Acesse o Projeto Cordel aqui!</a>
 <hr>
 
-### Projeto de redes sociais :globe_with_meridians::
-
-- <a target="_blank" href="https://jhon-victor-ramos.github.io/HTML-CSS_ofc/PROJETOS/Projeto-Social/">Clique aqui para acessá-lo!</a>
+### Projeto de Redes Sociais :globe_with_meridians::
+- <a target="_blank" href="https://jhon-victor-ramos.github.io/HTML-CSS_ofc/PROJETOS/Projeto-Social/">Acesse o Projeto de Redes Sociais aqui!</a>
 <hr>
 
-### Projeto de login responsivo somente com HTML & CSS :frowning_person::
-
-- <a target="_blank" href="https://jhon-victor-ramos.github.io/HTML-CSS_ofc/PROJETOS/Projeto-Login/">Clique aqui para acessá-lo!</a>
+### Projeto de Login Responsivo (HTML & CSS) :frowning_person::
+- <a target="_blank" href="https://jhon-victor-ramos.github.io/HTML-CSS_ofc/PROJETOS/Projeto-Login/">Acesse o Projeto de Login aqui!</a>
